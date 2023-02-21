@@ -1,0 +1,75 @@
+.sectionCenter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem 2rem;
+}
+
+.menu {
+  margin-top: 40px;
+  background: #ffffff;
+  color: rgb(43, 128, 43);
+  margin-bottom: 40px;
+}
+
+/*write a css for the class menu-item that puts each item aligned in 2 columns */
+.menu-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.photo {
+  object-fit: cover;
+  height: 300px;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
+}
+
+.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted var(--clr-grey-5);
+}
+
+.rating {
+  border-color: aliceblue;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: seagreen;
+  box-shadow: rgb(168, 168, 168) 0px 3px 3px 0px;
+}
+
+.filter-btn {
+  margin-right: 0.5rem;
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.filter-btn:hover {
+  letter-spacing: 3px;
+  background-color: hsl(144, 74%, 46%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(16, 173, 84) 0px 7px 29px 0px;
+}
+
+.filter-btn:active {
+  letter-spacing: 3px;
+  background-color: hsl(144, 77%, 49%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(16, 179, 84) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.concon {
+  text-align: center;
+  margin-bottom: 50px;
+}
