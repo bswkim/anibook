@@ -1,2 +1,3 @@
 # anibook
-Simple JavaScript project for filtering elements
+Simple web dev project for filtering elements
+Used javascript, css, bootstrap, and html
