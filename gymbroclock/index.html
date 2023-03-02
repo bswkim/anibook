@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Gloock"
+    />
+    <link rel="stylesheet" href="darkmode.css" />
+    <script src="app.js" defer></script>
+    <title>Gym Bro Clock</title>
+  </head>
+  <body onload="changeImageByTime()">
+    <h1 class="title">Gym Bro Clock</h1>
+    <footer id="dmt">
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider"></span>
+        <p class="clickme">CLICK</p>
+      </label>
+    </footer>
+    <div class="imgcontainer">
+      <h3 id="myQuote" class="myQuotee"></h3>
+      <img id="myImage" src="" alt="Current time image" />
+    </div>
+    <div id="MyClockDisplay" class="broclock" onload="showTime()"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
