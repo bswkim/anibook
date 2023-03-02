@@ -1,3 +1,3 @@
-# anibook
-Simple web dev project for filtering elements
-Used javascript, css, bootstrap, and html
+# Web Dev Projects
+Simple web dev project for different kind of stuffs
+Everything here is done by javascript, css, bootstrap, and html, and some other libraries
